@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: aquamarine;
+        }
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            flex: 1;
+            background: lightblue;
+            padding: 20px;
+            text-align: center;
+            justify-content: space-evenly;
+        }
+        @media (max-width:600px){
+            .container{
+                flex-direction: column;
+            }.container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            flex: 1;
+            background: lightsalmon;
+            padding: 20px;
+            text-align: center;
+            background-color: darkorchid;
+            color: black;
+        }
+        body{
+            background-color: lightsalmon;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h2>Responsive example</h2>
+    <div class="container">
+         <div class="box">box1</div>
+          <div class="box">box2</div>
+           <div class="box">box3</div>
+    </div>
+</body>
+</html>
